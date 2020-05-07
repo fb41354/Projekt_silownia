@@ -4,4 +4,25 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string-array name="options">
+    <item>Cwiczenie 1</item>
+    <item>Cwiczenie 2</item>
+    <item>Cwiczenie 3</item>
+    <item>Cwiczenie 4</item>
+    <item>Cwiczenie 5</item>
+    <item>Cwiczenie 6</item>
+    </string-array>
+
+
+    <string-array name="promien">
+        <item>1km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>15km</item>
+        <item>20km</item>
+        <item>30km</item>
+    </string-array>
 </resources>
+
+
