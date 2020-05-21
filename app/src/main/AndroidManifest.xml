@@ -11,9 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_zaawansowany"></activity>
+        <activity android:name=".Activity_zaawansowany"/>
         <activity android:name=".Activity_cwiczacy" />
         <activity android:name=".Activity_poczatkujacy" />
+        <activity android:name=".Activity_poziom" />
+        <activity android:name=".Activity_cwiczenie" />
+        <activity android:name=".Activity_cwiczenie_slide" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +29,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAV4fKm8yuW_BJ6Trdzmov36j5yl-UoZ0c" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -23,6 +23,14 @@
         <item>20km</item>
         <item>30km</item>
     </string-array>
+
+
+
+    <string name="przysiady">
+        •    Stań prosto w lekkim rozkroku. Głowa powinna być przedłużeniem kręgosłupa, wzrok skierowany przed siebie. Wciągnij brzuch.\n\n
+•    Powoli zacznij uginać kolana jednocześnie wypychając biodra do tyłu. Dla lepszej równowagi możesz trzymać ręce wyprostowane przed sobą. Staraj się, aby kolana nie wychodziły daleko przed palce stóp (jeśli jednak trudno ci zachować równowagę w tej pozycji, kolana mogą wyprzedzać stopy - ważniejsze jest, by nie pochylać się zbyt mocno do przodu). Pamiętaj również, by stopy całe przylegały do podłoża. Kąt między udem a podudziem powinien wynosić maksymalnie 90 stopni.\n\n
+•    Prostując kolana, powróć do pozycji wyjściowej.
+    </string>
 </resources>
 
 
