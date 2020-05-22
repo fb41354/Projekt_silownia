@@ -10,9 +10,7 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.projekt_silownia.Activity_poczatkujacy;
-import com.example.projekt_silownia.Activity_cwiczacy;
-import com.example.projekt_silownia.Activity_zaawansowany;
+import com.example.projekt_silownia.Activity_poziom;
 import com.example.projekt_silownia.R;
 
 public class HomeFragment extends Fragment {
@@ -33,7 +31,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_poczatkujacy();
+                openActivity_cwiczenie();
             }
         });
         //cwiczacy acitvity
@@ -44,7 +42,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_cwiczacy();
+                openActivity_cwiczenie();
             }
         });
         //zaawansowany activity
@@ -55,15 +53,19 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_zaawansowany();
+                openActivity_cwiczenie();
             }
         });
 
 
-
-
         return view;
     }
+    public void openActivity_cwiczenie()
+    {
+        Intent intent = new Intent(getActivity(), Activity_poziom.class);
+        startActivity(intent);
+    }
+    /*
     public void openActivity_poczatkujacy()
     {
         Intent intent = new Intent(getActivity(), Activity_poczatkujacy.class);
@@ -79,8 +81,7 @@ public class HomeFragment extends Fragment {
         Intent intent = new Intent(getActivity(), Activity_zaawansowany.class);
         startActivity(intent);
     }
-
-
+    */
 
 
 }
