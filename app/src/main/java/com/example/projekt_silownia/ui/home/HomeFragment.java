@@ -10,7 +10,9 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.projekt_silownia.Activity_poziom;
+import com.example.projekt_silownia.Activity_poziom_1;
+import com.example.projekt_silownia.Activity_poziom_2;
+import com.example.projekt_silownia.Activity_poziom_3;
 import com.example.projekt_silownia.R;
 
 public class HomeFragment extends Fragment {
@@ -31,7 +33,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_cwiczenie();
+                openActivity_poziom1();
             }
         });
         //cwiczacy acitvity
@@ -42,7 +44,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_cwiczenie();
+                openActivity_poziom2();
             }
         });
         //zaawansowany activity
@@ -53,35 +55,31 @@ public class HomeFragment extends Fragment {
             public void onClick(View v)
             {
                 // do something
-                openActivity_cwiczenie();
+                openActivity_poziom3();
+
             }
         });
 
 
         return view;
     }
-    public void openActivity_cwiczenie()
+
+    public void openActivity_poziom1()
     {
-        Intent intent = new Intent(getActivity(), Activity_poziom.class);
+        Intent intent = new Intent(getActivity(), Activity_poziom_1.class);
         startActivity(intent);
     }
-    /*
-    public void openActivity_poczatkujacy()
+    public void openActivity_poziom2()
     {
-        Intent intent = new Intent(getActivity(), Activity_poczatkujacy.class);
+        Intent intent = new Intent(getActivity(), Activity_poziom_2.class);
         startActivity(intent);
     }
-    public void openActivity_cwiczacy()
+    public void openActivity_poziom3()
     {
-        Intent intent = new Intent(getActivity(), Activity_cwiczacy.class);
+        Intent intent = new Intent(getActivity(), Activity_poziom_3.class);
         startActivity(intent);
     }
-    public void openActivity_zaawansowany()
-    {
-        Intent intent = new Intent(getActivity(), Activity_zaawansowany.class);
-        startActivity(intent);
-    }
-    */
+    
 
 
 }

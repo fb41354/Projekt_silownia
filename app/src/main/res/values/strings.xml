@@ -2,8 +2,8 @@
     <string name="app_name">Projekt_silownia</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_calender">Calender</string>
+    <string name="title_map">Map</string>
 
     <string-array name="options">
         <item>Cwiczenie 1</item>
@@ -26,11 +26,31 @@
 
 
 
-    <string name="przysiady">
+
+    <!-- Opis Cwiczen  -->
+    <string name="opis_cw_1">
         •    Stań prosto w lekkim rozkroku. Głowa powinna być przedłużeniem kręgosłupa, wzrok skierowany przed siebie. Wciągnij brzuch.\n\n
 •    Powoli zacznij uginać kolana jednocześnie wypychając biodra do tyłu. Dla lepszej równowagi możesz trzymać ręce wyprostowane przed sobą. Staraj się, aby kolana nie wychodziły daleko przed palce stóp (jeśli jednak trudno ci zachować równowagę w tej pozycji, kolana mogą wyprzedzać stopy - ważniejsze jest, by nie pochylać się zbyt mocno do przodu). Pamiętaj również, by stopy całe przylegały do podłoża. Kąt między udem a podudziem powinien wynosić maksymalnie 90 stopni.\n\n
 •    Prostując kolana, powróć do pozycji wyjściowej.
     </string>
+
+
+    <string name="opis_cw_2">
+            Opis Dla cw 2
+    </string>
+
+    <string name="opis_cw_3">
+        •    Stań prosto w lekkim rozkroku. Głowa powinna być przedłużeniem kręgosłupa, wzrok skierowany przed siebie. Wciągnij brzuch.\n\n
+    </string>
+
+    <string name="opis_cw_4">
+       Opis dla cw4
+    </string>
+
+    <string name="opis_cw_5">
+        Opis dla cw 5
+    </string>
+
 </resources>
 
 

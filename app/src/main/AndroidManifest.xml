@@ -11,14 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_zaawansowany"/>
-        <activity android:name=".Activity_cwiczacy" />
-        <activity android:name=".Activity_poczatkujacy" />
-        <activity android:name=".Activity_poziom" />
+        <activity android:name=".Activity_poziom_3" />
+        <activity android:name=".Activity_poziom_2" />
+        <activity android:name=".Activity_poziom_1" />
         <activity android:name=".Activity_cwiczenie" />
         <activity android:name=".Activity_cwiczenie_slide" />
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

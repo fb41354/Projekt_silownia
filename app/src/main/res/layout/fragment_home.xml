@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/tlo"
     tools:context=".ui.home.HomeFragment" >
 
     <LinearLayout
@@ -21,7 +22,7 @@
                 android:layout_width="345dp"
                 android:layout_height="93dp"
                 android:layout_marginTop="40dp"
-                android:text="Początkujący"
+                android:background="@drawable/btnget"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +32,7 @@
                 android:layout_width="345dp"
                 android:layout_height="93dp"
                 android:layout_marginTop="20dp"
-                android:text="Cwiczący"
+                android:background="@drawable/btn2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_poczatkuajcy" />
@@ -41,7 +42,7 @@
                 android:layout_width="345dp"
                 android:layout_height="93dp"
                 android:layout_marginTop="20dp"
-                android:text="Zaawansowany"
+                android:background="@drawable/btn3"
                 app:layout_constraintBottom_toTopOf="@+id/nav_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
